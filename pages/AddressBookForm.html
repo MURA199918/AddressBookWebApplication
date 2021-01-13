@@ -26,6 +26,50 @@
                             alt="Cancel Icon"></a>
                 </div>
             </div>
+
+            <div class="row-content">
+                <label for="fullName" class="label text">Full Name</label>
+                <input type="text" class="input" id="fullName" name="fullName" required>
+                <error-output class="text-error" for="text"></error-output>
+            </div>
+            <div class="row-content">
+                <label for="tel" class="label text">Phone Number</label>
+                <input type="tel" id="tel" name="tel" class="input" required>
+                <error-output class="mobno-error" for="tel"></error-output>
+            </div>
+            <div class="row-content">
+                <label for="address" class="label text">Address</label>
+                <textarea class="input text" name="address" id="address" style="height: 104px;" required></textarea>
+            </div>
+            <div class="select-items">
+                <div name="citySelect" id="citySelect" class="selectDiv">
+                    <label for="city" class="label text">City</label>
+                    <select name="city" id="city">
+                        <option value="">Select City</option>
+                        <option value="Visakhapatnam">Visakhapatnam</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Pune">Pune</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Bangalore">Bangalore</option>
+                    </select>
+                </div>
+                <div name="stateSelect" id="stateSelect" class="selectDiv">
+                    <label for="state" class="label text">State</label>
+                    <select name="state" id="state">
+                        <option value="">Select State</option>
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="TamilNadu">TamilNadu</option>
+                        <option value="Karnataka">Karnataka</option>
+                    </select>
+                </div>
+                <div name="zip" id="zip">
+                    <label for="zip" class="label text">Zip Code</label>
+                    <input class="input" type="tel" id="zip" name="zip" required>
+                </div>
+            </div>
         </form>
     </div>
 </body>
