@@ -1,0 +1,22 @@
+{
+    "AddressBookDB": [
+      {
+        "id": 1,
+        "_fullName": "Murali",
+        "_address": "first cross",
+        "_phoneNumber": 9597231495,
+        "_city": "Chennai",
+        "_state": "TamilNadu",
+        "_zip": "620019"
+      },
+      {
+        "id": 2,
+        "_fullName": "Vijay",
+        "_address": "second cross",
+        "_phoneNumber": 9894118421,
+        "_city": "Pune",
+        "_state": "Maharashtra",
+        "_zip": "400076"
+      }
+    ]
+}
